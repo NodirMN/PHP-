@@ -21,5 +21,12 @@
 //echo str_replace(".","-",$data) . "<br>";
 //echo substr_replace($data,'2022',0,4) ;
 
-echo trim ('    Leoric123   ') . "<br>";
-echo trim ('@!eqwewqeqw!!','!!!@'). "<br>";
+//echo trim ('    Leoric123   ') . "<br>";
+//echo trim ('@!eqwewqeqw!!','!!!@'). "<br>";
+//
+//echo strrev('noob');
+//echo strip_tags('<p>prosta <b>Text</b> tekst<p>');
+
+//////////////Hash
+echo md5("1234567"). "<br>";
+echo password_hash("12345",PASSWORD_DEFAULT) . "<br>";

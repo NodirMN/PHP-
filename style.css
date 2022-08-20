@@ -1,0 +1,22 @@
+
+.menu{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.menu>li{
+    list-style: none;
+    margin: 10px;
+}
+.menu>li>a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu>li>a:hover{
+    color: blue;
+} 
+p{
+    text-align: center;
+}
